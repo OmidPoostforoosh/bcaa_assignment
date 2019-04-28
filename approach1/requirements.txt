@@ -1,0 +1,4 @@
+feedparser
+psycopg2
+sqlalchemy
+pandas
