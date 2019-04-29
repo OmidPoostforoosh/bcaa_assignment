@@ -15,13 +15,14 @@ Each folder contains separated readme.md file which explains the approach partic
 
 #  Dockers Highlights
 ## Approach 1
-In this method, a python script `arxiv_cron.py` captures data from [arxiv.org](at http://arxiv.org/rss/cs.) and load it into postgreSQL. An Apache Airflow DAG schedules the job for a periodic basis `arxiv_cron_dag.py`
+In this method, a python script `arxiv_cron.py` captures data from [arxiv.org](http://arxiv.org/rss/cs) and load it into postgreSQL. An Apache Airflow DAG schedules the job for a periodic basis `arxiv_cron_dag.py`
 
 ## Approach 2
 The container image in this method can be pulled and run independently without any installation. Python file `arxiv_scheduler.py` creates a thread which automatically runs based on a scheduled interval.  
 
 ## Approach 3
-This data pipeline has been provided to demonstrate the knowledge of AWS. The python script `arxiv_s3.py` captures data from [arxiv.org](at http://arxiv.org/rss/cs.) and load it into Redshift. This data pipeline uses Amazon Simple Storage Service (S3) to store csv files.
+This data pipeline has been provided to demonstrate the knowledge of AWS. The python script `arxiv_s3.py` captures data from [arxiv.org](http://arxiv.org/rss/cs) and load it into Redshift. This data pipeline uses Amazon Simple Storage Service (S3) to store csv files.
+
 
 # Credentials Files
 For the first and second methods, credentials stored in `creds.py` which are located right beside the main script.   
