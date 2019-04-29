@@ -2,8 +2,7 @@
 
 A repo containing three methods for representing BCAA business intelligence assignment.
 Each method includes a containerized data processor created by Docker.
-For the first and second approaches, docker images are already built and provided in [Docker hub](https://hub.docker.com/r/omidp/bcaa_assignment)
-Teammates can easily pull the image from docker hub and run it.
+For the first and second approaches, docker images are already built and provided in [Docker hub](https://hub.docker.com/r/omidp/bcaa_assignment). Teammates can easily pull the image from docker hub and run it. That's it. It's all they need to do.
 
 This repo also includes a Jupyter notebook which points at the database and pull a sample of data.
 
@@ -14,7 +13,7 @@ A simple database has been implemented in a free could base postgreSQL platform 
 Credentials are provided in `creds.py`
 
 ## Approach 1
-In this method, a python script `arxiv_cron.py` captures data from [arxiv.org](http://arxiv.org/rss/cs) and load it into postgreSQL. An Apache Airflow DAG schedules the job for a periodic basis `arxiv_cron_dag.py`
+In this method, a python script `arxiv_cron.py` captures data from [arxiv.org](http://arxiv.org/rss/cs) and load it into postgreSQL. An Apache Airflow DAG schedules the job for a periodic basis `arxiv_cron_dag.py`. This DAG is a daily basis job which runs everyday at 07:00 AM __UTC__. This setting can be easily changed by editing __schedule_interval__ parameter. 
 
 ### Requirements (Assuming they are already installed on your machines)
 - [Docker](https://docs.docker.com/install/)
@@ -52,7 +51,7 @@ This data pipeline has been provided to demonstrate the knowledge of AWS. The py
 
 
 ### Requirements (Assuming they are already installed on your machines)
-- [Docker] (https://docs.docker.com/install/)
+- [Docker](https://docs.docker.com/install/)
 - [Jupyter Notebook](https://jupyter.readthedocs.io/en/latest/install.html)
 - Amazon Web Services (Including Redshift and S3 buckets)
 
