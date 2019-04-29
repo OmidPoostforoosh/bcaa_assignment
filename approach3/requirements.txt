@@ -1,0 +1,4 @@
+feedparser
+pandas
+boto3
+psycopg2

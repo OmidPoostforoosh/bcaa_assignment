@@ -1,0 +1,189 @@
+,title,link,description,created_date
+0,Crop yield probability density forecasting via quantile random forest and Epanechnikov Kernel function. (arXiv:1904.10959v1 [stat.AP]),http://arxiv.org/abs/1904.10959,"<p>A reliable and accurate forecasting method for crop yields is very important
+for the farmer, the economy of a country, and the agricultural stakeholders.
+However, due to weather extremes and uncertainties as a result of increasing
+climate change, most crop yield forecasting models are not reliable and
+accurate. In this paper, a hybrid crop yield probability density forecasting
+method via quantile regression forest and Epanechnikov kernel function (QRF-SJ)
+is proposed to capture the uncertainties and extremes of weather in crop yield
+forecasting. By assigning probability to possible crop yield values,
+probability density forecast gives a complete description of the yield of
+crops. A case study using the annual crop yield of groundnut and millet in
+Ghana is presented to illustrate the efficiency and robustness of the proposed
+technique. The proposed model is able to capture the nonlinearity between crop
+yield and the weather variables via random forest. The values of prediction
+interval coverage probability and prediction interval normalized average width
+for the two crops show that the constructed prediction intervals cover the
+target values with perfect probability. The probability density curves show
+that QRF-SJ method has a very high ability to forecast quality prediction
+intervals with a higher coverage probability. The feature importance gave a
+score of the importance of each weather variable in building the quantile
+regression forest model. The farmer and other stakeholders are able to realize
+the specific weather variable that affect the yield of a selected crop through
+feature importance. The proposed method and its application on crop yield
+dataset is the first of its kind in literature.
+</p>",2019-04-28 23:15:18.693884
+1,The utility of a convolutional neural network for generating a myelin volume index map from rapid simultaneous relaxometry imaging. (arXiv:1904.10960v1 [eess.IV]),http://arxiv.org/abs/1904.10960,"<p>Background and Purpose: A current algorithm to obtain a synthetic myelin
+volume fraction map (SyMVF) from rapid simultaneous relaxometry imaging (RSRI)
+has a potential problem, that it does not incorporate information from
+surrounding pixels. The purpose of this study was to develop a method that
+utilizes a convolutional neural network (CNN) to overcome this problem.
+Methods: RSRI and magnetization transfer images from 20 healthy volunteers were
+included. A CNN was trained to reconstruct RSRI-related metric maps into a
+myelin volume-related index (generated myelin volume index: GenMVI) map using
+the myelin volume index map calculated from magnetization transfer images
+(MTMVI) as reference. The SyMVF and GenMVI maps were statistically compared by
+testing how well they correlated with the MTMVI map. The correlations were
+evaluated based on: (i) averaged values obtained from 164 atlas-based ROIs, and
+(ii) pixel-based comparison for ROIs defined in four different tissue types
+(cortical and subcortical gray matter, white matter, and whole brain). Results:
+For atlas-based ROIs, the overall correlation with the MTMVI map was higher for
+the GenMVI map than for the SyMVF map. In the pixel-based comparison,
+correlation with the MTMVI map was stronger for the GenMVI map than for the
+SyMVF map, and the difference in the distribution for the volunteers was
+significant (Wilcoxon sign-rank test, P&lt;.001) in all tissue types. Conclusion:
+The proposed method is useful, as it can incorporate more specific information
+about local tissue properties than the existing method.
+</p>",2019-04-28 23:15:18.693884
+2,A Noise-aware Enhancement Method for Underexposed Images. (arXiv:1904.10961v1 [cs.MM]),http://arxiv.org/abs/1904.10961,"<p>A novel method of contrast enhancement is proposed for underexposed images,
+in which heavy noise is hidden. Under low light conditions, images taken by
+digital cameras have low contrast in dark or bright regions. This is due to a
+limited dynamic range that imaging sensors have. For these reasons, various
+contrast enhancement methods have been proposed so far. These methods, however,
+have two problems: (1) The loss of details in bright regions due to
+over-enhancement of contrast. (2) The noise is amplified in dark regions
+because conventional enhancement methods do not consider noise included in
+images. The proposed method aims to overcome these problems. In the proposed
+method, a shadow-up function is applied to adaptive gamma correction with
+weighting distribution, and a denoising filter is also used to avoid noise
+being amplified in dark regions. As a result, the proposed method allows us not
+only to enhance contrast of dark regions, but also to avoid amplifying noise,
+even under strong noise environments.
+</p>",2019-04-28 23:15:18.693884
+3,Noidy Conmunixatipn: On the Convergence of the Averaging Population Protocol. (arXiv:1904.10984v1 [cs.DC]),http://arxiv.org/abs/1904.10984,"<p>We study a process of \emph{averaging} in a distributed system with
+\emph{noisy communication}. Each of the agents in the system starts with some
+value and the goal of each agent is to compute the average of all the initial
+values. In each round, one pair of agents is drawn uniformly at random from the
+whole population, communicates with each other and each of these two agents
+updates their local value based on their own value and the received message.
+The communication is noisy and whenever an agent sends any value $v$, the
+receiving agent receives $v+N$, where $N$ is a zero-mean Gaussian random
+variable. The two quality measures of interest are (i) the total sum of squares
+$TSS(t)$, which measures the sum of square distances from the average load to
+the \emph{initial average} and (ii) $\bar{\phi}(t)$, measures the sum of square
+distances from the average load to the \emph{running average} (average at time
+$t$).
+</p>
+<p>It is known that the simple averaging protocol---in which an agent sends its
+current value and sets its new value to the average of the received value and
+its current value---converges eventually to a state where $\bar{\phi}(t)$ is
+small.
+</p>
+<p>It has been observed that $TSS(t)$, due to the noise, eventually diverges and
+previous research---mostly in control theory---has focused on showing eventual
+convergence w.r.t. the running average.
+</p>
+<p>We obtain the first probabilistic bounds on the convergence time of
+$\bar{\phi}(t)$ and precise bounds on the drift of $TSS(t)$ that show that
+albeit $TSS(t)$ eventually diverges, for a wide and interesting range of
+parameters, $TSS(t)$ stays small for a number of rounds that is polynomial in
+the number of agents.
+</p>
+<p>Our results extend to the synchronous setting and settings where the agents
+are restricted to discrete values and perform rounding.
+</p>",2019-04-28 23:15:18.693884
+4,A Robust Approach for Securing Audio Classification Against Adversarial Attacks. (arXiv:1904.10990v1 [cs.LG]),http://arxiv.org/abs/1904.10990,"<p>Adversarial audio attacks can be considered as a small perturbation
+unperceptive to human ears that is intentionally added to the audio signal and
+causes a machine learning model to make mistakes. This poses a security concern
+about the safety of machine learning models since the adversarial attacks can
+fool such models toward the wrong predictions. In this paper we first review
+some strong adversarial attacks that may affect both audio signals and their 2D
+representations and evaluate the resiliency of the most common machine learning
+model, namely deep learning models and support vector machines (SVM) trained on
+2D audio representations such as short time Fourier transform (STFT), discrete
+wavelet transform (DWT) and cross recurrent plot (CRP) against several
+state-of-the-art adversarial attacks. Next, we propose a novel approach based
+on pre-processed DWT representation of audio signals and SVM to secure audio
+systems against adversarial attacks. The proposed architecture has several
+preprocessing modules for generating and enhancing spectrograms including
+dimension reduction and smoothing. We extract features from small patches of
+the spectrograms using speeded up robust feature (SURF) algorithm which are
+further used to generate a codebook using the K-Means++ algorithm. Finally,
+codewords are used to train a SVM on the codebook of the SURF-generated
+vectors. All these steps yield to a novel approach for audio classification
+that provides a good trade-off between accuracy and resilience. Experimental
+results on three environmental sound datasets show the competitive performance
+of proposed approach compared to the deep neural networks both in terms of
+accuracy and robustness against strong adversarial attacks.
+</p>",2019-04-28 23:15:18.693884
+5,PAN: Path Integral Based Convolution for Deep Graph Neural Networks. (arXiv:1904.10996v1 [cs.LG]),http://arxiv.org/abs/1904.10996,"<p>Convolution operations designed for graph-structured data usually utilize the
+graph Laplacian, which can be seen as message passing between the adjacent
+neighbors through a generic random walk. In this paper, we propose PAN, a new
+graph convolution framework that involves every path linking the message sender
+and receiver with learnable weights depending on the path length, which
+corresponds to the maximal entropy random walk. PAN generalizes the graph
+Laplacian to a new transition matrix we call \emph{maximal entropy transition}
+(MET) matrix derived from a path integral formalism. Most previous graph
+convolutional network architectures can be adapted to our framework, and many
+variations and derivatives based on the path integral idea can be developed.
+Experimental results show that the path integral based graph neural networks
+have great learnability and fast convergence rate, and achieve state-of-the-art
+performance on benchmark tasks.
+</p>",2019-04-28 23:15:18.693884
+6,Assessing the Tolerance of Neural Machine Translation Systems Against Speech Recognition Errors. (arXiv:1904.10997v1 [cs.CL]),http://arxiv.org/abs/1904.10997,"<p>Machine translation systems are conventionally trained on textual resources
+that do not model phenomena that occur in spoken language. While the evaluation
+of neural machine translation systems on textual inputs is actively researched
+in the literature , little has been discovered about the complexities of
+translating spoken language data with neural models. We introduce and motivate
+interesting problems one faces when considering the translation of automatic
+speech recognition (ASR) outputs on neural machine translation (NMT) systems.
+We test the robustness of sentence encoding approaches for NMT encoder-decoder
+modeling, focusing on word-based over byte-pair encoding. We compare the
+translation of utterances containing ASR errors in state-of-the-art NMT
+encoder-decoder systems against a strong phrase-based machine translation
+baseline in order to better understand which phenomena present in ASR outputs
+are better represented under the NMT framework than approaches that represent
+translation as a linear model.
+</p>",2019-04-28 23:15:18.693884
+7,Analytical Moment Regularizer for Gaussian Robust Networks. (arXiv:1904.11005v1 [cs.CV]),http://arxiv.org/abs/1904.11005,"<p>Despite the impressive performance of deep neural networks (DNNs) on numerous
+vision tasks, they still exhibit yet-to-understand uncouth behaviours. One
+puzzling behaviour is the subtle sensitive reaction of DNNs to various noise
+attacks. Such a nuisance has strengthened the line of research around
+developing and training noise-robust networks. In this work, we propose a new
+training regularizer that aims to minimize the probabilistic expected training
+loss of a DNN subject to a generic Gaussian input. We provide an efficient and
+simple approach to approximate such a regularizer for arbitrary deep networks.
+This is done by leveraging the analytic expression of the output mean of a
+shallow neural network; avoiding the need for the memory and computationally
+expensive data augmentation. We conduct extensive experiments on LeNet and
+AlexNet on various datasets including MNIST, CIFAR10, and CIFAR100
+demonstrating the effectiveness of our proposed regularizer. In particular, we
+show that networks that are trained with the proposed regularizer benefit from
+a boost in robustness equivalent to performing 3-21 folds of data augmentation.
+</p>",2019-04-28 23:15:18.693884
+8,A Case Study of Trust on Autonomous Driving. (arXiv:1904.11007v1 [cs.HC]),http://arxiv.org/abs/1904.11007,"<p>As autonomous vehicles have benefited the society, understanding the dynamic
+change of human trust during human-autonomous vehicle interaction can help to
+improve the safety and performance of autonomous driving. We designed and
+conducted a human subjects study involving 19 participants. Each participant
+was asked to enter their trust level in a Likert scale in real-time during
+experiments on a driving simulator. We also collected physiological data (e.g.,
+heart rate, pupil size) of participants as complementary indicators of trust.
+We used analysis of variance (ANOVA) and Signal Temporal Logic (STL) techniques
+to analyze the experimental data. Our results show the influence of different
+factors (e.g., automation alarms, weather conditions) on trust, and the
+individual variability in human reaction time and trust change.
+</p>",2019-04-28 23:15:18.693884
+9,DeepSurvival: Pedestrian Wait Time Estimation in Mixed Traffic Conditions Using Deep Survival Analysis. (arXiv:1904.11008v1 [cs.HC]),http://arxiv.org/abs/1904.11008,"<p>Pedestrian's road crossing behaviour is one of the important aspects of urban
+dynamics that will be affected by the introduction of autonomous vehicles. In
+this study we introduce DeepSurvival, a novel framework for estimating
+pedestrian's waiting time at unsignalized mid-block crosswalks in mixed traffic
+conditions. We exploit the strengths of deep learning in capturing the
+nonlinearities in the data and develop a cox proportional hazard model with a
+deep neural network as the log-risk function. An embedded feature selection
+algorithm for reducing data dimensionality and enhancing the interpretability
+of the network is also developed. We test our framework on a dataset collected
+from 160 participants using an immersive virtual reality environment.
+Validation results showed that with a C-index of 0.64 our proposed framework
+outperformed the standard cox proportional hazard-based model with a C-index of
+0.58.
+</p>",2019-04-28 23:15:18.693884
