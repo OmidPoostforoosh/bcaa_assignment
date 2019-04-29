@@ -60,3 +60,14 @@ This data pipeline has been provided to demonstrate the knowledge of AWS. The py
 For the first and second methods, credentials stored in `creds.py` which are located right beside the main script.   
 
 For approach number 3, we need the Amazon Web Service platform which cannot be established for this assignment. However, scripts are fully tested and codes can be run successfully with inserting a proper  AWS credential.
+
+# Jupyter Notebook
+Includes all blocks for:
+- importing packages
+- connecting to postgreSQL database
+- presenting a sample of data
+
+```
+./jupyter notebook
+```
+When the notebook pages loaded in the browser click on `arxiv.ipynb` then run all cells
