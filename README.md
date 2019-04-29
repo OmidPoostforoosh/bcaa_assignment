@@ -17,7 +17,7 @@ Credentials are provided in `creds.py`
 In this method, a python script `arxiv_cron.py` captures data from [arxiv.org](http://arxiv.org/rss/cs) and load it into postgreSQL. An Apache Airflow DAG schedules the job for a periodic basis `arxiv_cron_dag.py`
 
 ### Requirements (Assuming they are already installed on your machines)
-- [Docker] (https://docs.docker.com/install/)
+- [Docker](https://docs.docker.com/install/)
 - [Apache Airflow](https://airflow.apache.org/installation.html)
 - [Jupyter Notebook](https://jupyter.readthedocs.io/en/latest/install.html)
 
@@ -35,7 +35,7 @@ docker run <created image id>
 The container image in this method can be pulled and run independently without any installation. Python file `arxiv_scheduler.py` creates a thread which automatically runs based on a scheduled interval.  
 
 ### Requirements (Assuming they are already installed on your machines)
-- [Docker] (https://docs.docker.com/install/)
+- [Docker](https://docs.docker.com/install/)
 - [Jupyter Notebook](https://jupyter.readthedocs.io/en/latest/install.html)
 
 docker commands:
